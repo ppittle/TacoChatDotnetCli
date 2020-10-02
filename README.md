@@ -1,1 +1,3 @@
 # TacoChatDotnetCli
+
+![build badge](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZ2dXUmIyemJXNDV1NDlSV05BdEx0bTdDVml2M01Pc2NuQU9IQWU4TzNOaG9NQmpZUnNZdGZRclZ0ZFY2SHozMTFUdDdEdmZrcWF2MHB3REx4d09QM3p3PSIsIml2UGFyYW1ldGVyU3BlYyI6IlR0VHBPM2lFcWw0MlpWV2IiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
