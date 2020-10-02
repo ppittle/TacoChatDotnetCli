@@ -3,9 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Build started on `date`
-      - dotnet restore .\src
-      - dotnet build .\src
+      - echo Build started on `date` in $pwd
+      - cd src
+      - dotnet restore 
+      - dotnet build 
 
   post_build:
     commands:
