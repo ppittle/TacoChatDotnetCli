@@ -1,13 +1,14 @@
 version: 0.2
 
-phases:
+phases:  
   build:
     commands:
       - echo Build started on `date` in $pwd
       - cd src
       - dotnet restore 
-      - dotnet build 
-
+      - dotnet build
+      - dotnet test
+    
   post_build:
     commands:
       - echo Build completed on `date`
