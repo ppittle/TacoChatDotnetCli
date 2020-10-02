@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <ToolCommandName>tacochat</ToolCommandName>
+        <IsPackable>true</IsPackable>
+        <PackAsTool>true</PackAsTool>
+        <Authors>Philip Pittle</Authors>
+        <Description>Taco Themed Sample Dotnet Cli Tool</Description>
+        <PackageIcon>icons8-taco-100.png</PackageIcon>
+        <RepositoryUrl>https://github.com/ppittle/TacoChatDotnetCli</RepositoryUrl>
+        <PackageTags>Taco Chat Sample Cli Tool</PackageTags>
+        <Version>0.0.2-local</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20427.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="icons8-taco-100.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "tacochat": {
+      "version": "0.0.2-local",
+      "commands": [
+        "tacochat"
+      ]
+    }
+  }
+}
