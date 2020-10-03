@@ -7,11 +7,20 @@ phases:
       - cd src
       - dotnet restore 
       - dotnet build
-      - dotnet test
+      - dotnet test --collect:"XPlat Code Coverage" --logger trx
     
   post_build:
     commands:
       - echo Build completed on `date`
+reports:
+  test-reports:
+    files:
+      - "src/TacoChat.Test/TestResults/*.trx"
+    file-format: "VISUALSTUDIOTRX"
+  code-coverage:
+    files:
+      - "src/TacoChat.Test/TestResults/*/*.xml"
+    file-format: "COBERTURAXML"
 
 artifacts:
   files:
