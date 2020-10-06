@@ -8,6 +8,7 @@ phases:
       - dotnet restore 
       - dotnet build
       - dotnet test --collect:"XPlat Code Coverage" --logger trx
+      - dotnet pack 
     
   post_build:
     commands:
@@ -24,4 +25,4 @@ reports:
 
 artifacts:
   files:
-    - .\bin\Debug\netcoreapp3.1\*
+    - .\bin\Debug\*.nupkg
